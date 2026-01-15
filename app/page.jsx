@@ -35,7 +35,7 @@ const Home = () => {
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2 text-accent border-accent hover:bg-accent hover:text-white transition-all duration-300"
-                onClick={() => window.open('/assets/Vishwas_Patel.pdf', '_blank')}
+                onClick={() => window.open('/assets/Vishwas_Patel_Resume.pdf', '_blank')}
               >
                 <span>Download Resume</span>
                 <FiDownload className="text-xl" />
