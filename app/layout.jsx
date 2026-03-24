@@ -14,7 +14,19 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata = {
   title: "Vishwas Patel | Portfolio",
-  description: "Software Engineer and Master's student in Computer Science at Santa Clara University",
+  description: "Software Engineer and Master's student in Computer Science at Santa Clara University. Passionate about building scalable and efficient applications.",
+  keywords: ["software engineer", "full stack developer", "React", "Next.js", "Python", "Santa Clara University"],
+  openGraph: {
+    title: "Vishwas Patel | Portfolio",
+    description: "Software Engineer and Master's student in Computer Science at Santa Clara University.",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vishwas Patel | Portfolio",
+    description: "Software Engineer and Master's student in Computer Science at Santa Clara University.",
+  },
   icons: {
     icon: '/favicon.ico',
   },

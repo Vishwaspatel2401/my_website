@@ -46,17 +46,24 @@ const projects = [
     live: "",
     github: "https://github.com/Vishwaspatel2401/Garden_Managment_system",
   },
-  // {
-  //   num: "03",
-  //   category: "frontend",
-  //   title: "project 3",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-  //   stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-  //   image: "/assets/work/thumb3.png",
-  //   live: "",
-  //   github: "",
-  // },
+  {
+    num: "03",
+    category: "RedWatch SOC Platform",
+    title: "RedWatch SOC Platform",
+    description:
+      "Built a full-stack Security Operations Center platform that enables security teams to upload and analyze web proxy, server, and application logs using AI. Leveraged GPT-4o-mini for automated threat detection, anomaly alerts, and analyst summaries. Supports multiple log formats (ZScaler, Apache/Nginx, JSON) and optional VirusTotal integration for threat intelligence enrichment.",
+    stack: [
+      { name: "React" },
+      { name: "TypeScript" },
+      { name: "Python" },
+      { name: "Flask" },
+      { name: "PostgreSQL" },
+      { name: "Docker" },
+    ],
+    image: "/assets/work/redwatch.png",
+    live: "https://redwatch-soc.vercel.app",
+    github: "https://github.com/Vishwaspatel2401/Redwatch-SOC",
+  },
 ];
 
 const Work = () => {

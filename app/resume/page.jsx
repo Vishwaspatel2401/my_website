@@ -96,7 +96,7 @@ const education = {
       duration: "2024 - 2026",
       location: "Santa Clara, CA, USA",
       gpa: "3.5/4",
-      coursework: "Computer Architecture, Object Oriented Programming, Database Management Systems, Machine Learning, Design Patterns, "
+      coursework: "Computer Architecture, Object Oriented Programming, Database Management Systems, Machine Learning, Design Patterns"
     },
     {
       institution: "Gujarat Technological University",
@@ -104,7 +104,7 @@ const education = {
       duration: "2019 - 2023",
       location: "Gandhinagar, Gujarat, India",
       gpa: "3.74/4",
-      coursework: "Data Structures & Algorithms, Theory of Computation, Operating Systems, Computer Networks, Computer Organization and Architecture, Software Engineering, , Python for Data Science"
+      coursework: "Data Structures & Algorithms, Theory of Computation, Operating Systems, Computer Networks, Computer Organization and Architecture, Software Engineering, Python for Data Science"
     }
   ],
 };
@@ -156,12 +156,22 @@ const skills = {
       icon: <FaDocker />,
       name: "docker",
     },
-    
-    
-    
-    
-    
-    
+    {
+      icon: <FaReact />,
+      name: "react",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "node.js",
+    },
+    {
+      icon: <SiNextdotjs />,
+      name: "next.js",
+    },
+    {
+      icon: <SiTailwindcss />,
+      name: "tailwind css",
+    },
   ],
 };
 

@@ -33,8 +33,7 @@ const Contact = () => {
   const [errorMessage, setErrorMessage] = useState('');
 
   useEffect(() => {
-    // Initialize EmailJS
-    emailjs.init("Sf388lizj6g1UZ9--");
+    emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
   }, []);
 
   const handleSubmit = async (e) => {
@@ -46,14 +45,13 @@ const Contact = () => {
     const form = e.target;
 
     try {
-      const result = await emailjs.sendForm(
-        'service_nq1drhr',
-        'template_h2u8djg',
+      await emailjs.sendForm(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         form,
-        'Sf388lizj6g1UZ9--'
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
       );
 
-      console.log('Success:', result.text);
       setStatus('success');
       form.reset(); // Clear the form
     } catch (error) {

@@ -24,7 +24,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Engineer</span>
             <h1 className="h1 mb-6">
-              Hello Im <br /> <span className="text-accent">Vishwas Patel</span>
+              Hello I&apos;m <br /> <span className="text-accent">Vishwas Patel</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
              I am a software engineer with a passion for building scalable and efficient applications. I am currently a master&apos;s student in Computer Science at Santa Clara University.
@@ -35,10 +35,12 @@ const Home = () => {
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2 text-accent border-accent hover:bg-accent hover:text-white transition-all duration-300"
-                onClick={() => window.open('/assets/Vishwas_Patel_Resume.pdf', '_blank')}
+                asChild
               >
-                <span>Download Resume</span>
-                <FiDownload className="text-xl" />
+                <a href="/assets/Vishwas_Patel_Resume.pdf" download aria-label="Download Vishwas Patel's resume">
+                  <span>Download Resume</span>
+                  <FiDownload className="text-xl" />
+                </a>
               </Button>
               <div className="mb-8 xl:mb-0">
                 <Social containerStyles="flex gap-6" />
