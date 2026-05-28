@@ -78,9 +78,9 @@ const experience = {
     },
     {
       company: "Santa Clara University",
-      position: "Data Science Intern",
-      duration: "Feb 2023 - Apr 2023",
-      location: "Ahmedabad, Gujarat, India"
+      position: "Data Engineer Student Worker",
+      duration: "Sept 2025 - June 2026",
+      location: "Santa Clara, CA, USA"
     }
   ],
 };
