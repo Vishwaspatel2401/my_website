@@ -77,7 +77,7 @@ const experience = {
       location: "Ahmedabad, Gujarat, India"
     },
     {
-      company: "SkyInfo Solutions",
+      company: "Santa Clara University",
       position: "Data Science Intern",
       duration: "Feb 2023 - Apr 2023",
       location: "Ahmedabad, Gujarat, India"
